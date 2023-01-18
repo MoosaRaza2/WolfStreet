@@ -1,0 +1,1127 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* ==============   common css   ============== */
+/* ==============   navbar starts   ============== */
+.navbar {
+  position: absolute;
+  top: 0px;
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
+}
+
+.navbar .menu-1 .navbar-nav {
+  margin-right: 138px;
+}
+
+.navbar .menu-1 .navbar-nav .nav-item {
+  margin-left: 46px;
+}
+
+.navbar .menu-1 .navbar-nav .nav-item:first-of-type {
+  margin-left: 0;
+}
+
+.navbar .menu-1 .navbar-nav .nav-item .nav-link {
+  color: #333333;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.navbar .menu-1 .navbar-nav .nav-item .nav-link::before {
+  content: '';
+  width: 0;
+  height: 1px;
+  background: #333333;
+  position: absolute;
+  left: -25%;
+  top: -3px;
+  transition: all ease 0.4s;
+  -webkit-transition: all ease 0.4s;
+  -moz-transition: all ease 0.4s;
+  -ms-transition: all ease 0.4s;
+  -o-transition: all ease 0.4s;
+}
+
+.navbar .menu-1 .navbar-nav .nav-item .nav-link::after {
+  content: '';
+  width: 0;
+  height: 1px;
+  background: #333333;
+  position: absolute;
+  right: -25%;
+  bottom: -3px;
+  transition: all ease 0.4s;
+  -webkit-transition: all ease 0.4s;
+  -moz-transition: all ease 0.4s;
+  -ms-transition: all ease 0.4s;
+  -o-transition: all ease 0.4s;
+}
+
+.navbar .menu-1 .navbar-nav .nav-item:hover .nav-link::before {
+  width: 150%;
+}
+
+.navbar .menu-1 .navbar-nav .nav-item:hover .nav-link::after {
+  width: 150%;
+}
+
+/* ==============   navbar   ends   ============== */
+/* ==============   banner starts   ============== */
+#banner {
+  padding-top: 105px;
+  padding-bottom: 120px;
+}
+
+#banner .banner-item .text-slider {
+  position: relative;
+}
+
+#banner .banner-item .text-slider .banner-text {
+  padding-top: 333px;
+}
+
+#banner .banner-item .text-slider .banner-text h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 64px;
+  color: #BDBDBD;
+  line-height: 64px;
+}
+
+#banner .banner-item .text-slider .banner-text h1 .name-1 {
+  font-weight: 700;
+  color: #333333;
+}
+
+#banner .banner-item .text-slider .left-arrow {
+  color: #333333;
+  width: 53px;
+  line-height: 53px;
+  text-align: center;
+  border: 1px solid #F2F2F2;
+  position: absolute;
+  top: 551px;
+  left: 0;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+
+#banner .banner-item .text-slider .left-arrow:hover {
+  background: #F2F2F2;
+}
+
+#banner .banner-item .text-slider .right-arrow {
+  color: #333333;
+  width: 53px;
+  line-height: 53px;
+  text-align: center;
+  border: 1px solid #F2F2F2;
+  position: absolute;
+  top: 551px;
+  left: 75px;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+
+#banner .banner-item .text-slider .right-arrow:hover {
+  background: #F2F2F2;
+}
+
+#banner .banner-item .serial-item {
+  padding-top: 170px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #BDBDBD;
+}
+
+#banner .banner-item .serial-item p {
+  line-height: 24px;
+}
+
+#banner .banner-item .serial-item .slash {
+  font-size: 45px;
+  margin-top: -15px;
+  padding: 0 30px;
+  color: #E0E0E0;
+  transform: rotate(30deg);
+  -webkit-transform: rotate(30deg);
+  -moz-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  -o-transform: rotate(30deg);
+}
+
+#banner .banner-item .img-slider .banner-img {
+  position: relative;
+}
+
+#banner .banner-item .img-slider .banner-img a .view-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #333333;
+  font-size: 12px;
+  letter-spacing: 2px;
+  line-height: 71px;
+  width: 222px;
+  background: #fff;
+  padding-left: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+
+#banner .banner-item .img-slider .banner-img a .view-link i {
+  padding-left: 18px;
+}
+
+#banner .banner-item .img-slider .banner-img a .view-link:hover {
+  letter-spacing: 4px;
+}
+
+/* ==============   banner   ends   ============== */
+/* ==============   about starts   ============== */
+#about {
+  padding-bottom: 150px;
+}
+
+#about .about-bg {
+  background: #FBFBFB;
+  height: 435px;
+}
+
+#about .about-bg .about-content-img {
+  padding-left: 100px;
+  padding-top: 30px;
+  position: relative;
+}
+
+#about .about-bg .about-content-img .about-img .img-2 {
+  position: absolute;
+  top: 60px;
+  right: -30px;
+}
+
+#about .about-bg .about-content-img .about-img .img-3 {
+  padding-top: 30px;
+}
+
+#about .about-bg .about-text {
+  padding-top: 30px;
+  position: relative;
+  padding-left: 35px;
+}
+
+#about .about-bg .about-text h3 {
+  font-family: "Roboto", sans-serif;
+  color: #BDBDBD;
+  font-size: 64px;
+  font-weight: 300;
+}
+
+#about .about-bg .about-text h3 {
+  padding-bottom: 15px;
+}
+
+#about .about-bg .about-text p {
+  font-family: "Roboto", sans-serif;
+  color: #000;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
+  padding-right: 25px;
+}
+
+#about .about-bg .about-text a .view-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #333333;
+  font-size: 12px;
+  letter-spacing: 2px;
+  line-height: 71px;
+  width: 222px;
+  background: #fff;
+  padding-left: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+
+#about .about-bg .about-text a .view-link i {
+  padding-left: 18px;
+}
+
+#about .about-bg .about-text a .view-link:hover {
+  letter-spacing: 4px;
+}
+
+#about .about-bg .about-text a .view-link {
+  bottom: -100px;
+  left: 35px;
+}
+
+/* ==============   about   ends   ============== */
+/* ==============   statement starts   ============== */
+#statement {
+  padding-bottom: 110px;
+}
+
+#statement header h3 {
+  font-family: "Roboto", sans-serif;
+  color: #BDBDBD;
+  font-size: 64px;
+  font-weight: 300;
+}
+
+#statement .statement-item {
+  padding-top: 50px;
+}
+
+#statement .statement-item .p-1 {
+  padding-right: 145px !important;
+}
+
+#statement .statement-item p {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 36px;
+}
+
+#statement .statement-item p .num {
+  font-family: "Roboto", sans-serif;
+  font-size: 200px;
+  font-weight: 900;
+  color: #F2F2F2;
+  margin-top: 50px;
+}
+
+#statement .statement-item p .num-2 {
+  padding-right: 30px;
+}
+
+/* ==============   statement   ends   ============== */
+/* ==============   project starts   ============== */
+#project {
+  padding-bottom: 221px;
+}
+
+#project header h3 {
+  font-family: "Roboto", sans-serif;
+  color: #BDBDBD;
+  font-size: 64px;
+  font-weight: 300;
+}
+
+#project header h3 {
+  padding-bottom: 60px;
+}
+
+#project .row-no-1 {
+  margin-bottom: 25px;
+}
+
+#project .project-item {
+  overflow: hidden;
+}
+
+#project .project-item:hover .overlay {
+  top: 0;
+}
+
+#project .project-item .overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(51, 51, 51, 0.8);
+  position: absolute;
+  top: -100%;
+  left: 0;
+  transition: all ease 0.4s;
+  -webkit-transition: all ease 0.4s;
+  -moz-transition: all ease 0.4s;
+  -ms-transition: all ease 0.4s;
+  -o-transition: all ease 0.4s;
+}
+
+#project .project-item .overlay h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  color: #fff;
+  line-height: 64px;
+  padding-top: 48px;
+  padding-left: 79px;
+}
+
+#project .project-item .overlay .small-h4 {
+  font-size: 50px;
+  padding-top: 30px;
+  padding-left: 40px;
+  line-height: 50px;
+}
+
+#project .project-item .overlay .med-h4 {
+  font-size: 55px;
+  line-height: 55px;
+  padding-top: 35px;
+  padding-left: 60px;
+}
+
+#project .project-item .overlay a .view-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #333333;
+  font-size: 12px;
+  letter-spacing: 2px;
+  line-height: 71px;
+  width: 222px;
+  background: #fff;
+  padding-left: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+
+#project .project-item .overlay a .view-link i {
+  padding-left: 18px;
+}
+
+#project .project-item .overlay a .view-link:hover {
+  letter-spacing: 4px;
+}
+
+#project .project-item .overlay a .view-link {
+  position: inherit;
+  background: transparent;
+  color: #fff;
+  line-height: 60px;
+  margin-left: 63px;
+}
+
+#project .project-item .overlay a .pos-a {
+  margin-left: 23px;
+}
+
+#project .project-item .overlay a .pos-med {
+  margin-left: 45px;
+}
+
+#project a .view-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #333333;
+  font-size: 12px;
+  letter-spacing: 2px;
+  line-height: 71px;
+  width: 222px;
+  background: #fff;
+  padding-left: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+
+#project a .view-link i {
+  padding-left: 18px;
+}
+
+#project a .view-link:hover {
+  letter-spacing: 4px;
+}
+
+#project a .view-link {
+  background: #333333;
+  color: #fff;
+  bottom: -100px;
+  left: inherit;
+  right: 12px !important;
+}
+
+/* ==============   project   ends   ============== */
+/* ==============   contact starts   ============== */
+#contact {
+  padding-bottom: 268px;
+}
+
+#contact header h3 {
+  font-family: "Roboto", sans-serif;
+  color: #BDBDBD;
+  font-size: 64px;
+  font-weight: 300;
+}
+
+#contact .contact-content {
+  position: relative;
+}
+
+#contact .contact-content .form-1 form input {
+  line-height: 42px;
+  width: 391px;
+  padding-left: 21px;
+  background: #f3f3f3;
+  border: none;
+  margin-bottom: 10px;
+}
+
+#contact .contact-content .form-1 form input::-webkit-input-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #BDBDBD;
+}
+
+#contact .contact-content .form-1 form input:-ms-input-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #BDBDBD;
+}
+
+#contact .contact-content .form-1 form input::-ms-input-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #BDBDBD;
+}
+
+#contact .contact-content .form-1 form input::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #BDBDBD;
+}
+
+#contact .contact-content .form-1 form .text-area {
+  max-width: 391px;
+  max-height: 147px;
+  height: 147px;
+  padding-left: 21px;
+  padding-top: 10px;
+  background: #f3f3f3;
+  border: none;
+}
+
+#contact .contact-content .form-1 form .text-area::-webkit-input-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #BDBDBD;
+}
+
+#contact .contact-content .form-1 form .text-area:-ms-input-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #BDBDBD;
+}
+
+#contact .contact-content .form-1 form .text-area::-ms-input-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #BDBDBD;
+}
+
+#contact .contact-content .form-1 form .text-area::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #BDBDBD;
+}
+
+#contact .contact-content .form-1 form .button-1 button {
+  position: absolute;
+  left: 0;
+  bottom: -140px;
+  border: none;
+}
+
+#contact .contact-content .form-1 form .button-1 button .view-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #333333;
+  font-size: 12px;
+  letter-spacing: 2px;
+  line-height: 71px;
+  width: 222px;
+  background: #fff;
+  padding-left: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+
+#contact .contact-content .form-1 form .button-1 button .view-link i {
+  padding-left: 18px;
+}
+
+#contact .contact-content .form-1 form .button-1 button .view-link:hover {
+  letter-spacing: 4px;
+}
+
+#contact .contact-content .form-1 form .button-1 button .view-link {
+  background: #333333;
+  color: #fff;
+}
+
+#contact .contact-content .contact-img img {
+  margin-left: 30px;
+}
+
+/* ==============   contact   ends   ============== */
+/* ==============   footer starts   ============== */
+footer {
+  background: #2C2C2C;
+  padding-top: 58px;
+}
+
+footer .item-1-pos {
+  padding-left: 50px;
+}
+
+footer .item-1 ul li a {
+  transition: all ease 0.4s;
+  -webkit-transition: all ease 0.4s;
+  -moz-transition: all ease 0.4s;
+  -ms-transition: all ease 0.4s;
+  -o-transition: all ease 0.4s;
+}
+
+footer .item-1 ul li a:hover {
+  letter-spacing: 2px;
+}
+
+footer .footer-item {
+  padding-bottom: 60px;
+}
+
+footer .footer-item h5 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  padding-bottom: 9px;
+}
+
+footer .footer-item ul li {
+  margin-top: 10px;
+}
+
+footer .footer-item ul li a {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  position: relative;
+}
+
+footer .footer-item ul li a .pos-1 {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  font-size: 14px;
+}
+
+footer .footer-item ul li a .pos-2 {
+  font-size: 18px;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+
+footer .footer-item ul li a .pos-2:hover {
+  color: #BDBDBD;
+}
+
+footer .footer-item ul li a .info-1 {
+  margin-left: 25px;
+}
+
+footer .footer-item ul .li-2 {
+  margin-top: 32px;
+  margin-bottom: 38px;
+}
+
+footer .footer-item .ul-pos-2 li {
+  margin-right: 35px;
+}
+
+footer .footer-item .ul-pos-2 li:last-of-type {
+  margin-right: 0;
+}
+
+footer .footer-end {
+  text-align: center;
+}
+
+footer .footer-end p {
+  font-family: "Open Sans", sans-serif;
+  color: #C8C8C8;
+  font-size: 12px;
+  line-height: 69px;
+  border-top: 2px solid #333333;
+}
+
+/* ==============   footer   ends   ============== */
+/* ==============   gallery starts   ============== */
+#gallery {
+  padding-top: 165px;
+  padding-bottom: 233px;
+}
+
+#gallery header {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #F2F2F2;
+}
+
+#gallery header h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 64px;
+  color: #BDBDBD;
+  line-height: 64px;
+}
+
+#gallery header h1 .name-1 {
+  font-weight: 700;
+  color: #333333;
+}
+
+#gallery .gallery-slider .left-arrow {
+  color: #333333;
+  width: 53px;
+  line-height: 53px;
+  text-align: center;
+  border: 1px solid #F2F2F2;
+  position: absolute;
+  top: 551px;
+  left: 0;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+
+#gallery .gallery-slider .left-arrow:hover {
+  background: #F2F2F2;
+}
+
+#gallery .gallery-slider .right-arrow {
+  color: #333333;
+  width: 53px;
+  line-height: 53px;
+  text-align: center;
+  border: 1px solid #F2F2F2;
+  position: absolute;
+  top: 551px;
+  left: 75px;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+
+#gallery .gallery-slider .right-arrow:hover {
+  background: #F2F2F2;
+}
+
+#gallery .gallery-slider .left-arrow {
+  top: inherit;
+  bottom: -113px;
+}
+
+#gallery .gallery-slider .right-arrow {
+  top: inherit;
+  bottom: -113px;
+}
+
+#gallery .gallery-slider .gallery-content-1 {
+  margin-top: 30px;
+}
+
+/* ==============   gallery   ends   ============== */
+/* ==============   project starts   ============== */
+#project-2 {
+  padding-top: 165px;
+  padding-bottom: 233px;
+}
+
+#project-2 header {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #F2F2F2;
+}
+
+#project-2 header h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 64px;
+  color: #BDBDBD;
+  line-height: 64px;
+}
+
+#project-2 header h1 .name-1 {
+  font-weight: 700;
+  color: #333333;
+}
+
+#project-2 .project-slider .left-arrow {
+  color: #333333;
+  width: 53px;
+  line-height: 53px;
+  text-align: center;
+  border: 1px solid #F2F2F2;
+  position: absolute;
+  top: 551px;
+  left: 0;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+
+#project-2 .project-slider .left-arrow:hover {
+  background: #F2F2F2;
+}
+
+#project-2 .project-slider .right-arrow {
+  color: #333333;
+  width: 53px;
+  line-height: 53px;
+  text-align: center;
+  border: 1px solid #F2F2F2;
+  position: absolute;
+  top: 551px;
+  left: 75px;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+
+#project-2 .project-slider .right-arrow:hover {
+  background: #F2F2F2;
+}
+
+#project-2 .project-slider .left-arrow {
+  top: inherit;
+  bottom: -113px;
+}
+
+#project-2 .project-slider .right-arrow {
+  top: inherit;
+  bottom: -113px;
+}
+
+#project-2 .project-slider .gallery-content-1 {
+  margin-top: 30px;
+}
+
+#project-2 .project-slider .project-item {
+  margin-top: 60px;
+}
+
+#project-2 .project-slider .project-item:first-of-type {
+  margin-top: 30px;
+}
+
+#project-2 .project-slider .project-item .project-text {
+  position: relative;
+}
+
+#project-2 .project-slider .project-item .project-text h3 {
+  font-family: "Roboto", sans-serif;
+  color: #BDBDBD;
+  font-size: 64px;
+  font-weight: 300;
+}
+
+#project-2 .project-slider .project-item .project-text h3 {
+  font-size: 40px;
+  padding-bottom: 68px;
+}
+
+#project-2 .project-slider .project-item .project-text p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #000;
+  line-height: 25px;
+  padding-right: 60px;
+}
+
+#project-2 .project-slider .project-item .project-text a .view-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #333333;
+  font-size: 12px;
+  letter-spacing: 2px;
+  line-height: 71px;
+  width: 222px;
+  background: #fff;
+  padding-left: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+
+#project-2 .project-slider .project-item .project-text a .view-link i {
+  padding-left: 18px;
+}
+
+#project-2 .project-slider .project-item .project-text a .view-link:hover {
+  letter-spacing: 4px;
+}
+
+#project-2 .project-slider .project-item .project-text a .view-link {
+  bottom: -135px;
+  padding-left: 42px;
+}
+
+/* ==============   project   ends   ============== */
+/* ==============   sample project starts   ============== */
+#sample-project {
+  padding-top: 165px;
+  padding-bottom: 120px;
+}
+
+#sample-project header {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #F2F2F2;
+  margin-bottom: 30px;
+}
+
+#sample-project header h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 64px;
+  color: #BDBDBD;
+  line-height: 64px;
+}
+
+#sample-project header h1 .name-1 {
+  font-weight: 700;
+  color: #333333;
+}
+
+#sample-project .project-img2 {
+  padding-top: 30px;
+}
+
+#sample-project .project-text {
+  padding-top: 30px;
+  margin-left: -32px;
+}
+
+#sample-project .project-text p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #000;
+  line-height: 24px;
+}
+
+#sample-project .project-img3 {
+  padding-top: 30px;
+}
+
+/* ==============   sample project   ends   ============== */
+/* ==============   certification starts   ============== */
+#certification {
+  padding-top: 165px;
+  padding-bottom: 233px;
+}
+
+#certification header {
+  padding-bottom: 30px;
+}
+
+#certification header h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 64px;
+  color: #BDBDBD;
+  line-height: 64px;
+}
+
+#certification header h1 .name-1 {
+  font-weight: 700;
+  color: #333333;
+}
+
+/* ==============   certification   ends   ============== */
+/* ==============   certification starts   ============== */
+#contact-2 {
+  padding-bottom: 120px;
+}
+
+#contact-2 header {
+  padding-top: 165px;
+  padding-bottom: 34px;
+}
+
+#contact-2 header h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 64px;
+  color: #BDBDBD;
+  line-height: 64px;
+}
+
+#contact-2 header h1 .name-1 {
+  font-weight: 700;
+  color: #333333;
+}
+
+#contact-2 .contact-text {
+  position: relative;
+}
+
+#contact-2 .contact-text .address h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #333333;
+}
+
+#contact-2 .contact-text .address p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #333333;
+}
+
+#contact-2 .contact-text .phone-num {
+  margin-top: 44px;
+  margin-bottom: 43px;
+}
+
+#contact-2 .contact-text .phone-num h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #333333;
+}
+
+#contact-2 .contact-text .email p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #333333;
+}
+
+#contact-2 .contact-text .contact-us .view-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #333333;
+  font-size: 12px;
+  letter-spacing: 2px;
+  line-height: 71px;
+  width: 222px;
+  background: #fff;
+  padding-left: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+
+#contact-2 .contact-text .contact-us .view-link i {
+  padding-left: 18px;
+}
+
+#contact-2 .contact-text .contact-us .view-link:hover {
+  letter-spacing: 4px;
+}
+
+#contact-2 .contact-text .contact-us .view-link {
+  bottom: -104px;
+  color: #fff;
+  background: #333333;
+  padding-left: 0;
+  text-align: center;
+}
+
+#contact-2 .contact-text .contact-us .view-link:hover {
+  letter-spacing: 2px;
+  background: #BDBDBD;
+  color: #333333;
+}
+
+#contact-2 .contact-map {
+  padding-top: 105px;
+}
+
+#contact-2 .contact-map .map-1 {
+  width: 100%;
+  height: 500px;
+}
+
+/* ==============   certification   ends   ============== */
+/*# sourceMappingURL=style.css.map */
